@@ -76,10 +76,10 @@ if st.sidebar.button("Search for information"):
                 display_data = final_data
 
             # Display Tables
-            st.write(f"### 🔍 Table 1: Interactive DataFrame ({len(display_data)} records)")
+            st.write(f"### Interactive DataFrame ({len(display_data)} records)")
             st.dataframe(display_data.head(100))  
-            st.write("### 📋 Table 2: Static Table")
-            st.table(display_data.head(20))  
+            # st.write("### 📋 Table 2: Static Table")
+            # st.table(display_data.head(20))  
 
             ### 📊 CHARTS SECTION ###
             st.write("## 📊 Data Visualizations")
